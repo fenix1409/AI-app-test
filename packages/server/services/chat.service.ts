@@ -9,7 +9,7 @@ const client = new OpenAI({
 });
 
 const parkInfo = fs.readFileSync(
-   path.join(__dirname, '..', 'prompts', 'WonderWorld'),
+   path.join(__dirname, '..', 'prompts', 'WonderWorld.md'),
    'utf-8'
 );
 const instructions = templete.replace('{{parkInfo}}', parkInfo);
