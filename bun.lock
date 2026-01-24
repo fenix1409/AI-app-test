@@ -9,11 +9,11 @@
         "concurrently": "^9.2.1",
         "husky": "^9.1.7",
         "lint-staged": "^16.2.7",
-        "prettier": "^3.7.4",
+        "prettier": "^3.7.4"
       },
       "peerDependencies": {
-        "typescript": "^5",
-      },
+        "typescript": "^5"
+      }
     },
     "packages/client": {
       "name": "client",
